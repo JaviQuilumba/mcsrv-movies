@@ -3,5 +3,5 @@ WORKDIR /urs/src/app
 COPY package*.json ./
 RUN npm install
 COPY . .
-EXPOSE 4000
+EXPOSE 4002
 CMD ["node", "server.js"]

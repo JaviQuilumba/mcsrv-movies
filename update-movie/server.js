@@ -6,7 +6,7 @@ const movieRoutes = require('./routes/movieRoutes');
 const cors = require('cors');
 
 const app = express();
-const port = 4000;
+const port = 4003;
 
 app.get('/', (req, res) => {
   res.status(200).json({ status: 'ok', message: 'Microservice update movie Running ' });
