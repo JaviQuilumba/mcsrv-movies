@@ -11,10 +11,10 @@ env:
   AWS_REGION: us-east-2
   ECR_REGISTRY: 339712766050.dkr.ecr.us-east-2.amazonaws.com
   ECR_REPOSITORY: grupo14-mcsrv-view-movies
-  ECS_SERVICE: srv-view-movies
-  ECS_CLUSTER: g14-microservices
-  CONTAINER_NAME: viewMovies
-  TASK_DEFINITION_NAME: task-microservicios-g14
+  ECS_SERVICE: srv-view
+  ECS_CLUSTER: g14-mic
+  CONTAINER_NAME: viewM
+  TASK_DEFINITION_NAME: task-micro
 
 jobs:
   deploy:
