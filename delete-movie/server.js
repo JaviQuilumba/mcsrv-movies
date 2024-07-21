@@ -9,7 +9,7 @@ const app = express();
 const port = 4002;
 
 app.get('/', (req, res) => {
-  res.status(200).json({ status: 'ok', message: 'Microservice delete movie Running ' });
+  res.status(200).json({ status: 'ok', message: 'Microservice delete movie Running.. ' });
 });
 
 app.use(cors({
