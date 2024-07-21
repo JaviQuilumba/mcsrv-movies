@@ -11,10 +11,10 @@ env:
   AWS_REGION: us-east-2
   ECR_REGISTRY: 339712766050.dkr.ecr.us-east-2.amazonaws.com
   ECR_REPOSITORY: grupo14-update-movie
-  ECS_SERVICE: microservice1-service
-  ECS_CLUSTER: microservice-cluster
-  CONTAINER_NAME: microservice1-container
-  TASK_DEFINITION_NAME: microservice1-task
+  ECS_SERVICE: srv-update-movies
+  ECS_CLUSTER: g14-microservices
+  CONTAINER_NAME: updateMovie
+  TASK_DEFINITION_NAME: task-microservicios-g14
 
 jobs:
   deploy:
