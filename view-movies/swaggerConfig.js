@@ -10,11 +10,11 @@ const options = {
     },
     servers: [
       {
-        url: 'http://localhost:4004/api'
+        url: 'http://localhost:4000/api'
       }
     ]
   },
-  apis: ['./routes/*.js', './models/*.js'] // Archivos con anotaciones Swagger
+  apis: ['./routes/*.js', './models/*.js'] 
 };
 
 const swaggerSpec = swaggerJSDoc(options);
