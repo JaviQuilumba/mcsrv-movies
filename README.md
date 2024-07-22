@@ -21,7 +21,7 @@ The process must be repeated for the different repositories where the respective
 Frontend: https://github.com/JaviQuilumba/cinema-platform.git
 Login: https://github.com/JaviQuilumba/mcsrv-login.git
 APIGateway: https://github.com/JaviQuilumba/APIGateway.git
-Other microservices: 
+Other microservices: https://github.com/cdto17/MicroserviciosGrupo14.git
 #### How to use the project :tw-1f52c:
 <p>
 To use the project you must execute the commands described in the previous point. When you run it in the terminal you will find URLs that you can open locally and with the Swagger documentation, you will be able to see the different data found with the database you have configured in JSON format, since the microservice is only the backend.
