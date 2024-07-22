@@ -8,7 +8,7 @@ const cors = require('cors');
 const app = express();
 const port = 4000;
 
-app.get('/', (req, res) => {
+app.get('/viewM', (req, res) => {
   res.status(200).json({ status: 'ok', message: 'Microservice view-movies Running :)' });
 });
 
